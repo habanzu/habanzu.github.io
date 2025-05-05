@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+  "scripts_old": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -27,7 +27,7 @@
     "vite": "^6.3.1"
   },
   "homepage": "https://lxq.ai",
-  "scripts": {
+"scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
 }
