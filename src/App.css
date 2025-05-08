@@ -102,3 +102,14 @@ a:hover {
   word-wrap: break-word;
 }
 
+.footer-link {
+  color: #666;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #666;
+  text-decoration: underline;
+}
+

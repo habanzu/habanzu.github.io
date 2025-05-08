@@ -2,6 +2,8 @@ import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Terms from './Terms'; // import the component
 import Legal from './Legal'; // import the component
+import Privacy from './Privacy'; // import the component
+import PrivacyArtisale from './PrivacyArtisale'; // import the component
 
 
 function Home() {
@@ -27,11 +29,13 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/legal" element={<Legal />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/privacy-artisale" element={<PrivacyArtisale />} />
       </Routes>
 
       <footer>
-        <Link to="/terms">Terms of Use</Link> &nbsp;
-        <Link to="/legal">Legal</Link>
+        <Link to="/terms" className="footer-link">Terms of Use</Link> &nbsp;
+        <Link to="/legal" className="footer-link">Legal</Link>
       </footer>
     </div>
   );
